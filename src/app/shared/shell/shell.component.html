@@ -28,7 +28,7 @@
             <span class="logo" routerLink="/">🔥 Angular Firestarter</span>
 
             <span class="fill-space"></span>
-            <div *ngIf="!(isHandset$ | async)">
+            <div *ngIf="!(isHandset$ | async)" class="taskbar">
                 <a mat-button routerLink="/kanban">📚 Kanban Demo</a>
                 <a mat-button routerLink="/customers">⚡ SSR Demo</a>
                 
