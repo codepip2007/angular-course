@@ -30,7 +30,8 @@ const modules = [
   MatFormFieldModule,
   MatInputModule,
   MatSnackBarModule,
-  RouterModule
+  RouterModule,
+  CommonModule
 ]
 
 @NgModule({
